@@ -1,0 +1,430 @@
+/*css du body*/
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    font-size: medium;
+    font-family: arial, sans-serif, courier;
+    justify-content: center;
+    background-color: #f5deb3;
+    text-justify: newspaper;
+}
+/*css de la page*/
+.page{
+    flex-flow: column ;
+    width: 71%;
+    background-color:  #fff;
+    align-self: center;
+    border: 5px solid #5a83ed;
+    border-radius: 20px;
+    align-items: center;
+}
+/*css du barre de navigation*/
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background: url("mes_image/background-2.jpg") #4f4f4f; ;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+/*css de la boite qui contient la photo*/
+.nav-photo{
+    align-self: center;
+    justify-items: center;
+    width: 180px;
+    height: 190px;
+    margin-left: 20px;
+}
+/*css de la photo elle-même*/
+#photo{ 
+    width: 180px;
+    height: 190px;
+    border-radius: 100px;
+}
+/*css de la boite qui contient le nom et la qualification*/
+.identite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    float: right;
+    margin-left: 30px;
+    width: 48%;
+    font-family: sans-serif;
+    color: #cbc7ce; 
+    font-size: 19px;
+}
+.nav-identite{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    letter-spacing: 5px;
+    align-items: center;
+}
+.nom{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: #39dc1f;
+
+}
+/*css barre du titre*/
+.nav-titre{
+    display: flex;
+    flex-direction: row; 
+    height: 40px;
+    align-items: center;
+}
+h2{
+    color: #021827;
+}
+.indentification{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+/*css du conteneur*/
+.conteneur{
+    flex-flow: column;
+    padding: 15px;
+    background-color: #fff;
+}
+/*css de l'avant propos*/
+.indentification{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 210px;
+    line-height: 20px;
+}
+.conteneur-apropos{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-indent: 3em;
+    align-items: center;
+    width: 99%;  
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 90px;
+}
+/*css conteneur expérience professionnelle*/
+.conteneur-experience{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: auto;
+    padding: 2px;
+    margin-top: 70px;
+    border-top: solid 5px #5c73f7;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-self: center;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    text-indent: none;
+    color: #021827;
+}
+.experience-pro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 99%;
+    border-bottom: solid 1px #226aa5;
+}
+.experience-pro2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 99%;
+    margin-top: 30px;
+    border-bottom: solid 5px #226aa5;
+}
+.experience-gauche{
+    width: auto;
+    height: 100px;
+    text-align: center;
+}
+/*css des icons au niveau de experience et  aussi formation plus bas*/
+.images{
+    height: 80px;
+    width: 90px;
+}
+.experience-droit{
+    line-height: 18px;
+    text-indent: 3em;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+/*Actualité et Yarda sont des liens qui renvoi à mes 2 attestation des travail par entreprise*/
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+/*css compétences*/
+.conteneur-competence{
+    flex-flow: column;
+    border-bottom: 5px solid #5c73f7;
+    padding-bottom: 30px ;
+    margin-bottom: 20px;
+}
+/* css des competences professionnelles et personnelles*/
+.sous-compétences{
+    width: 90%;
+}
+/*css barrre compétences professionnelles*/
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+/*css des barres elle mêmes de compétences professionnelles*/
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: #8c8c8c;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/*barre html*/
+.c95{
+    width: 95%;
+    background-color: #4B8;
+}
+/*css barre word et excel*/
+.c80{
+    width: 80%;
+    background-color: #4B8;
+}
+/*css adobe XD*/
+.c70{
+    width: 70%;
+    background-color: #4B8;
+}
+/*css illustrator et photoshop*/
+.c65{
+    width: 65%;
+    background-color: #4B8;
+}
+/*css barres competences personnelles*/
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/*css des barres elle mêmes de compétences personnelles*/
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 1em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: #8c8c8c;
+}
+/*css pour créativité*/
+.c90{
+    width: 90%;
+    background-color: #4B8;
+}
+/*css pour adaptation*/
+.c85{
+    width: 88%;
+    background-color: #4B8;
+}
+/*css pour sérieux*/
+.c95{
+    width: 95%;
+    background-color: #4B8;
+}
+/*css pour créativité*/
+.c98{
+    width: 98%;
+    background-color: #4B8;
+}
+/*css pour pédagogie*/
+.c95{
+    width: 95%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
+/*css formations*/
+.conteneur-formation{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 5px solid #5c73f7;
+    align-items: center;
+}
+.conteneur-formation{
+    display: flex;
+    flex-flow: column;
+}
+/*css formation 1 et 2*/
+.formation{
+    display: flex;
+    flex-flow: row wrap;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-bottom: solid 1px black ;
+}
+.formation2{
+    display: flex;
+    flex-flow: row wrap;
+    width: 99%;
+    justify-content: center;
+    margin: 15px;
+    align-items: center;
+}
+.formation-icon{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    align-items: center;
+    margin-right: 50px;
+}
+.formation-texte{
+    text-indent: 2em;
+}
+/*css Centre d'interêts et langues*/
+.centre_interet{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 5px solid #5c73f7;
+    padding-bottom: 30px;
+}
+.Centre_interet-partie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.liste_centre-interet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cbien{
+    width: 95%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
+.cbasic{
+    width: 51%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
+.image2{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+/*css du footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 20px;
+    align-content: center;
+    margin-top: 15px;
+    color: #cbc7ce;
+    background: url("mes_image/background-2.jpg") #4f4f4f; ;
+}
+.contacte{
+    color: #cbc7ce;
+}
+/*css des icons*/
+.image3{
+    height: 37px;
+    width: 37px;
+    margin-right:15px;
+    margin-top: 20px; 
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    margin-right: 15px;
+    padding: 5px;
+}
+/*css boite qui contient les icon*/
+.liste-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center; 
+}
+.contact2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lien2{
+    color: #cbc7ce;
+}
+/*css pour les H*/
+p:hover{
+    font-weight: bold;
+    color:green;
+}
+h2:hover{
+    color: goldenrod;
+}
+h3:hover{
+    color: rgb(89, 89, 243);
+}
+h3:hover{
+    color: goldenrod;
+}
+h4:hover{
+    color: goldenrod;
+}
+h5:hover{
+    color: goldenrod;
+}
+h6:hover{
+    color: goldenrod;
+}
+li:hover{
+    color: rgb(255, 138, 239);
+}
+a:hover{
+    color: #5c73f7;
+}
